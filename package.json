@@ -1,0 +1,62 @@
+{
+  "name": "react-devicons-component",
+  "version": "1.0.2",
+  "description": "React Devicons is a package that allows you to easily use Devicons, a collection of icons representing programming languages, development tools, and more, in your React projects.",
+  "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:prod": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balaji-premkumar/react-devicons.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "devicons",
+    "icons",
+    "developer-tools",
+    "programming-languages",
+    "ui",
+    "components",
+    "javascript",
+    "frontend",
+    "web-development",
+    "svg-icons",
+    "npm-package",
+    "open-source"
+  ],
+  "author": "Balaji Premkumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balaji-premkumar/react-devicons/issues"
+  },
+  "homepage": "https://github.com/balaji-premkumar/react-devicons#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "path-browserify": "^1.0.1",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
