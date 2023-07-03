@@ -1,6 +1,6 @@
 {
   "name": "react-devicons-component",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "React Devicons is a package that allows you to easily use Devicons, a collection of icons representing programming languages, development tools, and more, in your React projects.",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
